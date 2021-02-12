@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var {execSync} = require('child_process'),
 chalk = require('chalk'),
 messages = require('./commits.json'),
